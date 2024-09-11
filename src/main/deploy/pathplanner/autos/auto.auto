@@ -1,0 +1,97 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.7071301441350655,
+      "y": 6.637928410024977
+    },
+    "rotation": -120.57922687248906
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "shooter_cmd"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "shoooooot"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "intake_cmd"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "shoooooooot"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "shooter_cmd"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "shoooot"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "intake_cmd"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "shoot"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "shooter_cmd"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "shooot"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "intake_cmd"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "shooooot"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "shooter_cmd"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}
